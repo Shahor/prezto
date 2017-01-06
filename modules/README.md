@@ -185,22 +185,7 @@ Terminal
 
 Sets terminal window and tab titles.
 
-Tmux
-----
-
-Defines tmux aliases and provides for auto launching it at start-up.
-
 Utility
 -------
 
 Defines general aliases and functions.
-
-Wake-on-LAN
------------
-
-This module provides a wrapper around the wakeonlan tool.
-
-Yum
----
-
-Defines yum aliases.
