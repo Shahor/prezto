@@ -70,7 +70,7 @@ command -v sha1sum > /dev/null || alias sha1sum="shasum"
 alias c="tr -d '\n' | pbcopy"
 
 # Recursively delete `.DS_Store` files
-alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
+alias cleanup="find . -type f -name '*.DS_Store' -ls -delete && find . -type f -name '.*~' -ls -delete"
 
 # Empty the Trash on all mounted volumes and the main HDD.
 # Also, clear Apple’s System Logs to improve shell startup speed.
