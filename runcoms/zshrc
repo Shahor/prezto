@@ -43,4 +43,4 @@ if [ -f '/Users/shahor/.gcloud/path.zsh.inc' ]; then source '/Users/shahor/.gclo
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/shahor/.gcloud/completion.zsh.inc' ]; then source '/Users/shahor/.gcloud/completion.zsh.inc'; fi
-export PATH="/usr/local/opt/postgresql@9.4/bin:$PATH"
+export PATH="/usr/local/opt/postgresql@9.6/bin:$PATH"
